@@ -22,7 +22,13 @@ c = np.concatenate((arr1, arr2), axis=1)
 
 print("--------->",c)
 
+d = np.stack((arr1, arr2), axis=1)
+e = np.hstack((arr1, arr2))
+f = np.vstack((arr1, arr2))
+g = np.dstack((arr1, arr2))
 
 
-# sdfsdfdsfsdf
-# sdfsfsdff
+print("------->", d)
+print("------->", e)
+print("------->", f)
+print("------->", g)
